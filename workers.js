@@ -36,7 +36,7 @@ async function handleRequest(request) {
   }
 
   return new Response(
-    `This is a <a href="https://pypi.org/simple/">PyPi</a> mirror that created by <a href="https://github.com/abersheeran">Aber</a>.`,
+    `This is a <a href="https://pypi.org/simple/">PyPi</a> mirror that created by <a href="https://github.com/snakexgc/Cloudflare-Workers-Pypi-Mirror">Cloudflare-Workers-Pypi-Mirror</a>.`,
     {
       headers: { "Content-Type": "text/html" },
       status: 404,
