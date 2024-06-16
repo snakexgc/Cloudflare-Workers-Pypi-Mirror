@@ -1,5 +1,7 @@
 # Cloudflare-Workers-Pypi-Mirror
-使用Cloudflare Workers搭建一个Pypi镜像地址 
+使用Cloudflare Workers搭建一个Pypi镜像地址。 
+源项目地址：https://aber.sh/articles/create-pypi-mirror-by-cloudflare-workers/ 
+在原项目的基础上稍作修改而来。
 # 前提
 首先你**必须**要有一个没有被墙的域名，由于众所周知的原因，workers的默认域名全部被墙了，现在只能使用自己的域名，否则无法访问。 
 # 创建一个workers服务并绑定自己的域名
