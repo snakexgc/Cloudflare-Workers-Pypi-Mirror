@@ -12,7 +12,7 @@ async function handleRequest(request) {
   // 替换成你实际使用的域名
   const expectedHost = "pypi.20010101.xyz"; 
   if (host !== expectedHost) {
-    return new Response("Invalid host", { status: 400 });
+    return new Response("您需要修改Workers中的域名才能正常使用！", { status: 400 });
   }
 
   if (pathname.startsWith("/simple")) {
